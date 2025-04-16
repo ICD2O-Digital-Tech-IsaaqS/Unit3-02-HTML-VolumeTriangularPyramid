@@ -1,9 +1,44 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Volume of a Right Triangular Pyramid, with JavaScript">
+    <meta name="keywords" content="Immaculata, ICD2O">
+    <meta name="author" content="Isaaq Simon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io (10)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io (10)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io (10)/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io (10)/site.webmanifest">
+  <title>Right Triangular Pyramid Volume Calculator</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <h1>Volume of a Right Triangular Pyramid</h1>
+  <p>V = (1/6) * b * a * h</p>
+  
+  <!-- Input fields -->
+  <label for="a">Base of triangle (a):</label>
+  <input type="number" id="a" placeholder="e.g. 5"><br>
+
+  <label for="b">Height of triangle (b):</label>
+  <input type="number" id="b" placeholder="e.g. 4"><br>
+
+  <label for="h">Height of pyramid (h):</label>
+  <input type="number" id="h" placeholder="e.g. 10"><br>
+
+  <!-- Button to calculate volume -->
+  <button onclick="calculateVolume()">Calculate Volume</button>
+
+  <!-- Result will be displayed here -->
+  <div id="result"></div>
+
+  <!-- Link to external JavaScript file -->
+  <script src="./js/script.js"></script>
+
+  <img src="images/right-triangular-pyramid-volume.png" alt="Pyramid"/>
+
+</body>
 </html>
